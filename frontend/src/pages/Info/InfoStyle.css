@@ -1,0 +1,161 @@
+.xc{
+    margin: 0 auto;
+    padding-top: 1%;
+    background-color: white;
+    height: 100%;
+    min-height: calc(100vH - 80px);
+}
+
+.xv{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    min-height: calc(100vH - 70px);
+    background-color: white;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+
+
+}
+.images .img1{
+    width: 100%;
+    padding: 0;
+}
+
+.images >.img1 img{
+    width: 100%;
+}
+
+.xv >.hotelImg img{
+    width: 100%;
+}
+
+.opis{
+    margin-top: 3%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.udogodnienia{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 3%;
+}
+.pokoje{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 3%;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid;
+}
+th{
+    background-color: blue;
+    color: white;
+}
+
+.but{
+
+    width: 100%;
+    background-image: none;
+    background-color: #0071c2;
+    border: none;
+}
+
+.img1{
+    width: 100%;
+}
+
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /*min-height: calc(100vH - 247.2px);*/
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.info{
+    flex: 1;
+}
+
+.foto{
+    flex: 1;
+    height: max-content;
+}
+
+.name{
+    font-size: 20px;
+    color: #0071c2;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.street{
+    font-size: 15px;
+}
+
+.titles{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.facilities{
+    font-size: 12px;
+}
+
+.freeroom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pokoje{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 3%;
+
+}
+.text6{
+    text-align: center;
+}
+
+.wytlumaczenie{
+    color: grey;
+    font-size: 11px;
+}
+
+.przycisk{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+

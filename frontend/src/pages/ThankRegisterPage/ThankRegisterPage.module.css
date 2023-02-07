@@ -1,0 +1,18 @@
+.form2{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.styl{
+    margin-top: 10%;
+}
+
+.text{
+    color: black;
+}

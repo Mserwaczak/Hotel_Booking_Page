@@ -1,0 +1,404 @@
+.xc{
+    margin: 0 auto;
+    padding-top: 1%;
+    background-color: white;
+    height: 100%;
+    min-height: calc(100vH - 80px);
+}
+
+.xv{
+
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    min-height: calc(100vH - 160px);
+    background-color: white;
+}
+
+.searchOne{
+    height: 25vh;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 2%;
+
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 0.8rem;
+}
+
+.img1{
+    height: 80%;
+    top: 10%;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+
+}
+
+.okienko{
+    width: 30%;
+    height: 50%;
+    margin-left: 60%;
+}
+.ocena{
+    background-color: green;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    margin-left: 70%;
+    text-align: center;
+    padding: 10% 0;
+    /*height: 50%;*/
+}
+.ocena:after {
+    content: "";
+    display: block;
+    /*padding-bottom: 70%;*/
+}
+.button1{
+    margin-bottom: 20%;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+.content {
+    position: absolute;
+    text-align: center;
+}
+
+
+
+.startDate{
+    border-radius: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: none;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+}
+
+.inputline{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.formularz{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input{
+    border-radius: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: none;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+}
+
+.przycisk{
+    height: 57%;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: rgba(32, 68, 136, 0.76);
+    color: white;
+    padding: 0 2%;
+
+}
+
+.custom,
+.custom > div.react-datepicker-wrapper,
+.custom > div > div.react-datepicker__input-container
+.custom > div > div.react-datepicker__input-container input {
+    width: 25%;
+}
+
+.p1{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /*min-height: calc(100vH - 247.2px);*/
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.listSearch{
+    flex: 1;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+.listResult{
+    flex: 2;
+}
+
+.lsTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.lsItem>label{
+    font-size: 12px;
+}
+.lsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.listSearch>.searchListbtn{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    background-image: none;
+    height: 15%;
+}
+
+.searchItem{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.searchItemjpg{
+    width: 200px;
+    height: 200px;
+}
+
+/*.searchItemjpg:after{*/
+/*    content: "";*/
+/*    display: block;*/
+/*}*/
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.siTitle{
+    font-size: 20px;
+    color: #0071c2;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.siStreet{
+    font-size: 12px;
+}
+
+.siFacility{
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.siSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.siFeatures{
+    font-size: 12px;
+}
+.siText{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+}
+.siText2{
+    font-size: 12px;
+    color: #008009;
+}
+
+.details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.siRating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.siRating>span{
+    font-weight: 500;
+}
+
+.siRating>.ratingbtn{
+    background-color: #008009;
+    color: white;
+    padding: 5px;
+    background-image: none;
+    cursor: default;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    width: max-content;
+    border-radius: 0;
+}
+
+.siDetailText{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.siPrice{
+    font-size: 24px;
+}
+
+.siTax{
+    font-size: 12px;
+    color: gray;
+}
+
+.checkbutton{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-image: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+    .listContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        /*min-height: calc(100vH - 247.2px);*/
+    }
+
+    .listWrapper {
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .listSearch{
+        flex: 1;
+        background-color: orangered;
+        padding: 10px;
+        border-radius: 0;
+        position: sticky;
+        top: 0;
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .listContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        /*min-height: calc(100vH - 247.2px);*/
+    }
+
+    .listWrapper {
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .listSearch{
+        flex: 1;
+        background-color: orangered;
+        padding: 10px;
+        border-radius: 0;
+        position: sticky;
+        top: 0;
+        height: max-content;
+    }
+
+    .searchItem{
+        border: 1px solid lightgray;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .siFacility{
+        text-align: center;
+        justify-content: center;
+    }
+    .siStreet{
+        text-align: left;
+    }
+    .searchItemjpg{
+        width: 100%;
+        height: 200px;
+    }
+
+}
